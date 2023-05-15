@@ -6,7 +6,7 @@ const NewProject = () => {
         <div className={styles.newproject_container}>
             <h1>New Project</h1>
             <p>Create your project and then add the services.</p>
-            <ProjectForm />
+            <ProjectForm btnText="Project Create"/>
         </div>
     )
 }

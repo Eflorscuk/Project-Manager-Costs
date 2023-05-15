@@ -1,22 +1,29 @@
 import styles from "./ProjectForm.module.css"
+import Input from "../form/Input"
+import Select from "../form/Select"
+import SubmitButton from "../form/SubmitButton"
 
-const ProjectForm = () => {
+const ProjectForm = ({btnText}) => {
     return (
-        <form>
-            <div>
-                <input text="text" placeholder="Enter project name" />
-            </div>
-            <div>
-                <input text="number" placeholder="Enter the total budget" />
-            </div>
-            <div>
-                <select name="category_id">
-                    <option Disabled>Select the Category</option>
-                </select>
-            </div>
-            <div>
-                <input type="submit" value="Create Project" />
-            </div>
+        <form className={styles.form}>
+            <Input 
+                type="text" 
+                text="Project's Name"
+                name="name"
+                placeholder="Enter project name"
+            />
+            <Input 
+                type="number" 
+                text="Enter the total budget"
+                name="budget"
+                placeholder="Enter the total budget"
+            />
+            <Select 
+                name="category_id"
+                text="Select a Category"
+            />
+            <SubmitButton text={btnText}/>
+            
         </form>
     )
 }
