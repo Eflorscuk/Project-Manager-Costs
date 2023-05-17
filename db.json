@@ -21,28 +21,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "Terceiro Projeto",
-      "budget": "3",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Quarto Projeto",
-      "budget": "4",
-      "category": {
-        "id": "4",
-        "name": "Planning"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
     }
   ],
   "categories": [
