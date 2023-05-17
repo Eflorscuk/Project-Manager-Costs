@@ -1,14 +1,7 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "1",
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "teste",
+      "name": "Primeiro Projeto",
       "budget": "1",
       "category": {
         "id": "1",
@@ -16,19 +9,36 @@
       },
       "cost": 0,
       "services": [],
+      "id": 1
+    },
+    {
+      "name": "Segundo Projeto",
+      "budget": "2",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
       "id": 2
     },
     {
+      "name": "Terceiro Projeto",
+      "budget": "3",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "Teste message",
-      "budget": "2",
+      "name": "Quarto Projeto",
+      "budget": "4",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "4",
+        "name": "Planning"
       },
       "cost": 0,
       "services": [],
@@ -42,7 +52,7 @@
     },
     {
       "id": 2,
-      "name": "Desenvolvimento"
+      "name": "Development"
     },
     {
       "id": 3,
@@ -50,7 +60,7 @@
     },
     {
       "id": 4,
-      "name": "Planejamento"
+      "name": "Planning"
     }
   ]
 }
