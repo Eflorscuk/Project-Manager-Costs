@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Primeiro Projeto",
-      "budget": "1",
+      "name": "Primeiro Projeto Edited",
+      "budget": "10000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "Segundo Projeto",
-      "budget": "2",
+      "name": "Segundo Projeto Updated",
+      "budget": "20000",
       "category": {
         "id": "2",
         "name": "Development"
