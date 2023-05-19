@@ -11,6 +11,10 @@ Let's go to the fun =)
 - react-router-dom
 - uuid (to create some ids)
 
+## Install dependeces
+At the root of the project:
+```npm i```
+
 ## Scripts to start the project:
 ### `npm start`
 
